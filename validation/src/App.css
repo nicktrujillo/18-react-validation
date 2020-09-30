@@ -1,0 +1,64 @@
+body {
+  background: #444343;
+}
+
+form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 501px;
+  margin: auto;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 500px;
+  height: 25px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 40px;
+  outline: none;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  padding: 10px;
+}
+
+#button {
+  align-self: center;
+}
+
+label {
+  text-align: left;
+}
+
+.textRed {
+  color: red;
+}
+
+.borderRed {
+  border: 2px solid red;
+  border-radius: 2px;
+}
+
+.displayNone {
+  display: none;
+}
